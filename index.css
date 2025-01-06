@@ -642,10 +642,16 @@ textarea::placeholder {
 
 .footer {
     display: flex;
-    padding: 2.5rem 15.5rem 2.5rem 12.5rem;
+    padding: 2.5rem 12.5rem;
+    justify-content: center;
+    border-top: 1px solid #00FF1A;
+}
+
+.footer-container {
+    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border-top: 1px solid #00FF1A;
+    width: 65rem;
 }
 
 .footer-list {
